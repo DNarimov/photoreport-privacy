@@ -1,131 +1,135 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy — Juru Photo Report</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@500;600&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --red:#C8102E;
-    --ink:#1c1c1e;
-    --muted:#5f6368;
-    --line:#e6e3de;
-    --bg:#faf9f7;
-  }
-  *{margin:0;padding:0;box-sizing:border-box}
-  body{
-    font-family:'IBM Plex Sans',sans-serif;
-    background:var(--bg);
-    color:var(--ink);
-    line-height:1.65;
-    font-size:16px;
-  }
-  .rule{height:4px;background:var(--red)}
-  main{max-width:720px;margin:0 auto;padding:56px 24px 96px}
-  .brand{
-    font-size:12px;letter-spacing:.22em;text-transform:uppercase;
-    color:var(--red);font-weight:600;margin-bottom:18px;
-  }
-  h1{
-    font-family:'IBM Plex Serif',serif;font-weight:600;
-    font-size:clamp(28px,5vw,40px);line-height:1.15;margin-bottom:10px;
-  }
-  .date{color:var(--muted);font-size:14px;margin-bottom:48px}
-  h2{
-    font-family:'IBM Plex Serif',serif;font-weight:600;font-size:20px;
-    margin:40px 0 10px;padding-top:28px;border-top:1px solid var(--line);
-  }
-  p{margin-bottom:12px}
-  .lead{font-size:18px;color:var(--ink)}
-  a{color:var(--red);text-decoration:none;border-bottom:1px solid rgba(200,16,46,.3)}
-  a:hover{border-bottom-color:var(--red)}
-  .lang-divider{
-    margin:72px 0 0;padding:28px 0 0;border-top:3px double var(--line);
-  }
-  .lang-divider .brand{margin-bottom:14px}
-  footer{
-    max-width:720px;margin:0 auto;padding:0 24px 56px;
-    color:var(--muted);font-size:13px;border-top:1px solid var(--line);
-    padding-top:24px;
-  }
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Juru Photo Report — Политика конфиденциальности / Privacy Policy</title>
+  <style>
+    :root { --ink:#16242e; --muted:#5b6772; --line:#e6ebf0; --accent:#0F766E; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:#f6f8fa; color:#16242e;
+      font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height:1.6; }
+    .wrap { max-width: 820px; margin: 0 auto; padding: 40px 22px 80px; }
+    header { border-bottom: 2px solid var(--accent); padding-bottom: 18px; margin-bottom: 28px; }
+    h1 { font-size: 26px; margin: 0 0 6px; }
+    .sub { color:#5b6772; font-size: 14px; }
+    h2 { font-size: 19px; margin: 34px 0 10px; }
+    h3 { font-size: 15px; margin: 20px 0 6px; color: var(--accent); }
+    p, li { font-size: 15px; color:#23323d; }
+    ul { padding-left: 20px; }
+    .lang-divider { margin: 60px 0 0; border:0; border-top:1px solid #e6ebf0; }
+    .muted { color:#5b6772; font-size: 13px; }
+    a { color: var(--accent); }
+    code { background:#eef2f4; padding:1px 6px; border-radius:5px; font-size: 13px; }
+  </style>
 </head>
 <body>
-<div class="rule"></div>
-<main>
-  <div class="brand">Juru Limited</div>
-  <h1>Privacy Policy — Juru Photo Report</h1>
-  <p class="date">Effective date: 4 June 2026</p>
+<div class="wrap">
 
-  <p class="lead">Juru Photo Report ("the App") is a field photo documentation tool developed by Juru Limited. The App works entirely offline. It does not collect, transmit, sell, or share any personal data.</p>
+  <!-- ===================== РУССКИЙ ===================== -->
+  <header>
+    <h1>Политика конфиденциальности</h1>
+    <div class="sub">Приложение «Juru Photo Report» · Juru Limited · Обновлено: 12 июня 2026</div>
+  </header>
 
-  <h2>1. Data storage</h2>
-  <p>Everything you create in the App — photos, captions, project and sheet information, coordinates, and elevations — is stored locally on your device only. We do not operate servers for the App and have no access to your content.</p>
+  <p>Настоящая Политика описывает, какие данные обрабатывает приложение «Juru Photo Report»
+  (далее — «Приложение»), для каких целей и кому они доступны. Приложение предназначено
+  для сотрудников компании Juru Limited и используется для подготовки полевой
+  фотодокументации геотехнических изысканий.</p>
 
-  <h2>2. Camera</h2>
-  <p>The App requests camera access solely so you can take photos and attach them to your report sheets. Photos are saved on your device and are never uploaded anywhere by the App.</p>
+  <h2>1. Какие данные мы обрабатываем</h2>
+  <ul>
+    <li><b>Фотографии.</b> Снимки объектов (скважин), сделанные камерой устройства или выбранные из фотогалереи, которые вы добавляете в отчёт.</li>
+    <li><b>Геолокация.</b> Географические координаты (широта, долгота, высота), которые по вашему действию записываются в карточку скважины. Координаты определяются только в момент использования приложения и только при вашем нажатии на функцию определения координат.</li>
+    <li><b>Идентификатор устройства.</b> Технический идентификатор устройства (identifier for vendor), используемый для привязки выгруженных отчётов к конкретному устройству.</li>
+    <li><b>Содержимое отчётов.</b> Введённые вами данные: названия проектов и листов, номера и параметры скважин, описания к фотографиям, даты.</li>
+  </ul>
 
-  <h2>3. Location</h2>
-  <p>The App requests location access solely to fill in the coordinate and elevation fields of a report sheet when you tap the GPS button. This information is written into your report on the device. It is not transmitted to us or to any third party.</p>
+  <h2>2. Как используются данные</h2>
+  <p>Перечисленные данные используются исключительно для работы Приложения: создания,
+  хранения и синхронизации рабочих фотоотчётов, а также формирования PDF-документов.
+  Данные передаются в облачное хранилище компании и доступны уполномоченным сотрудникам
+  через защищённый вход в административную панель компании.</p>
 
-  <h2>4. No tracking</h2>
-  <p>The App contains no user accounts, no analytics, no advertising, no tracking technologies, and no third-party SDKs that collect data.</p>
+  <h2>3. Передача данных третьим сторонам</h2>
+  <p>Для хранения и синхронизации данных используется облачная платформа
+  <b>Supabase</b> (поставщик инфраструктуры хранения), действующая по поручению Juru Limited.
+  Мы не продаём ваши данные и не передаём их третьим сторонам в рекламных целях.</p>
 
-  <h2>5. Sharing and exports</h2>
-  <p>PDF reports you export are shared only through the standard iOS share sheet, at your explicit direction, to destinations you choose. The App itself does not send your files anywhere.</p>
+  <h2>4. Отслеживание и реклама</h2>
+  <p>Приложение <b>не использует</b> данные для отслеживания между приложениями или сайтами,
+  не показывает рекламу и не передаёт данные рекламным сетям.</p>
 
-  <h2>6. Data deletion</h2>
-  <p>You can delete individual sheets or entire projects inside the App at any time. Uninstalling the App removes all of its data from your device.</p>
+  <h2>5. Разрешения устройства</h2>
+  <ul>
+    <li><b>Камера</b> — для съёмки фотографий объектов.</li>
+    <li><b>Фотогалерея</b> — для добавления в отчёт существующих изображений и сохранения готовых отчётов.</li>
+    <li><b>Геолокация (при использовании)</b> — для записи координат скважин в отчёт.</li>
+  </ul>
+  <p>Каждое разрешение запрашивается отдельно, и вы можете отказать в нём в настройках устройства.</p>
 
-  <h2>7. Children</h2>
-  <p>The App is a professional tool intended for general audiences and does not knowingly collect any information from anyone, including children.</p>
+  <h2>6. Хранение и безопасность</h2>
+  <p>Данные хранятся в облачном хранилище компании. Доступ к ним ограничен и предоставляется
+  только уполномоченным сотрудникам после аутентификации. Соединение с облаком защищено
+  шифрованием (HTTPS).</p>
 
-  <h2>8. Changes to this policy</h2>
-  <p>If the App's behaviour ever changes in a way that affects privacy, we will update this page and the effective date above.</p>
+  <h2>7. Права пользователя и контакты</h2>
+  <p>По вопросам обработки данных, их изменения или удаления обращайтесь по адресу:
+  <a href="mailto:d.narimov@juru.org">d.narimov@juru.org</a>.</p>
 
-  <h2>9. Contact</h2>
-  <p>Juru Limited — <a href="https://juru.org">juru.org</a><br>
-  Email: <a href="mailto:d.narimov@juru.org">d.narimov@juru.org</a></p>
+  <hr class="lang-divider" />
 
-  <div class="lang-divider">
-    <div class="brand">Juru Limited · Русская версия</div>
-    <h1>Политика конфиденциальности — Juru Photo Report</h1>
-    <p class="date">Дата вступления в силу: 4 июня 2026 г.</p>
+  <!-- ===================== ENGLISH ===================== -->
+  <header style="margin-top:40px;">
+    <h1>Privacy Policy</h1>
+    <div class="sub">“Juru Photo Report” app · Juru Limited · Updated: June 12, 2026</div>
+  </header>
 
-    <p class="lead">Juru Photo Report («Приложение») — инструмент полевой фотодокументации, разработанный Juru Limited. Приложение работает полностью офлайн. Оно не собирает, не передаёт, не продаёт и не раскрывает никакие персональные данные.</p>
+  <p>This Policy explains what data the “Juru Photo Report” application (the “App”) processes,
+  for what purposes, and who can access it. The App is intended for employees of Juru Limited
+  and is used to prepare field photo documentation for geotechnical investigations.</p>
 
-    <h2>1. Хранение данных</h2>
-    <p>Всё, что вы создаёте в Приложении — фотографии, описания, данные проектов и листов, координаты и отметки — хранится только локально на вашем устройстве. У Приложения нет серверов, и мы не имеем доступа к вашему содержимому.</p>
+  <h2>1. Data we process</h2>
+  <ul>
+    <li><b>Photos.</b> Images of sites (boreholes) taken with the device camera or selected from the photo library, which you add to a report.</li>
+    <li><b>Location.</b> Geographic coordinates (latitude, longitude, altitude) that are written into a borehole record when you choose to capture them. Location is determined only while you are using the App and only when you tap the coordinate-capture action.</li>
+    <li><b>Device identifier.</b> A technical device identifier (identifier for vendor) used to associate uploaded reports with a specific device.</li>
+    <li><b>Report content.</b> Data you enter: project and sheet names, borehole numbers and parameters, photo descriptions, and dates.</li>
+  </ul>
 
-    <h2>2. Камера</h2>
-    <p>Доступ к камере запрашивается исключительно для съёмки фотографий, которые вы прикрепляете к листам отчёта. Фотографии сохраняются на устройстве и никуда не загружаются.</p>
+  <h2>2. How the data is used</h2>
+  <p>The data above is used solely to operate the App: to create, store, and synchronize work
+  photo reports and to generate PDF documents. Data is uploaded to the company’s cloud storage
+  and is available to authorized employees through a secure login to the company’s admin panel.</p>
 
-    <h2>3. Геолокация</h2>
-    <p>Доступ к геолокации запрашивается исключительно для заполнения полей координат и абсолютной отметки при нажатии кнопки GPS. Эти данные записываются в ваш отчёт на устройстве и не передаются ни нам, ни третьим лицам.</p>
+  <h2>3. Sharing with third parties</h2>
+  <p>We use the cloud platform <b>Supabase</b> (a storage infrastructure provider acting on behalf
+  of Juru Limited) to store and synchronize data. We do not sell your data and do not share it
+  with third parties for advertising purposes.</p>
 
-    <h2>4. Отсутствие отслеживания</h2>
-    <p>В Приложении нет учётных записей, аналитики, рекламы, технологий отслеживания и сторонних SDK, собирающих данные.</p>
+  <h2>4. Tracking and advertising</h2>
+  <p>The App <b>does not</b> use data to track you across apps or websites, does not display ads,
+  and does not share data with advertising networks.</p>
 
-    <h2>5. Передача и экспорт</h2>
-    <p>Экспортированные PDF-отчёты передаются только через стандартное окно «Поделиться» iOS, по вашему явному действию и только выбранным вами адресатам. Само Приложение никуда не отправляет ваши файлы.</p>
+  <h2>5. Device permissions</h2>
+  <ul>
+    <li><b>Camera</b> — to take photos of sites.</li>
+    <li><b>Photo library</b> — to add existing images to a report and to save finished reports.</li>
+    <li><b>Location (when in use)</b> — to record borehole coordinates in a report.</li>
+  </ul>
+  <p>Each permission is requested separately, and you may decline it in your device settings.</p>
 
-    <h2>6. Удаление данных</h2>
-    <p>Вы можете в любой момент удалить отдельные листы или целые проекты внутри Приложения. Удаление Приложения с устройства удаляет все его данные.</p>
+  <h2>6. Storage and security</h2>
+  <p>Data is stored in the company’s cloud storage. Access is restricted and granted only to
+  authorized employees after authentication. The connection to the cloud is encrypted (HTTPS).</p>
 
-    <h2>7. Дети</h2>
-    <p>Приложение является профессиональным инструментом для широкой аудитории и не собирает сведения ни о ком, включая детей.</p>
+  <h2>7. Your rights and contact</h2>
+  <p>For questions about data processing, correction, or deletion, contact:
+  <a href="mailto:d.narimov@juru.org">d.narimov@juru.org</a>.</p>
 
-    <h2>8. Изменения политики</h2>
-    <p>Если поведение Приложения изменится в части конфиденциальности, мы обновим эту страницу и дату вступления в силу.</p>
+  <p class="muted" style="margin-top:40px;">© 2026 Juru Limited. All rights reserved.</p>
 
-    <h2>9. Контакты</h2>
-    <p>Juru Limited — <a href="https://juru.org">juru.org</a><br>
-    Email: <a href="mailto:d.narimov@juru.org">d.narimov@juru.org</a></p>
-  </div>
-</main>
-<footer>© 2026 Juru Limited. All rights reserved.</footer>
+</div>
 </body>
 </html>
